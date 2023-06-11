@@ -783,7 +783,7 @@ padding: 72px 24px 24px 24px;
         transform: translateY(-50%);
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-        .name-user:focus .icon-input-name {
+        .name-user:focus.icon-input {
             fill:#4D5AE5;
         }
               .coment{
@@ -849,7 +849,9 @@ padding: 72px 24px 24px 24px;
 
 
 }
-
+.checkbox-box{
+    margin-bottom: 24px;
+}
 
 
 .privacy-label{
@@ -869,7 +871,7 @@ padding: 72px 24px 24px 24px;
     align-items: center;
     fill: transparent;
     justify-content: center;
-    margin-bottom: 24px;
+    
 }
 .checkbox-svg:checked{
     background-color:var(--main-button-color);
@@ -899,6 +901,9 @@ padding: 72px 24px 24px 24px;
     margin-left: auto;
         margin-right: auto;
  
+}
+.visually-hidden:checked .checkbox-svg{
+    color: var(--main-button-color);
 }
 
 
