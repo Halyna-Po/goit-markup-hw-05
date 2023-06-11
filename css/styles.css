@@ -858,6 +858,7 @@ padding: 72px 24px 24px 24px;
     letter-spacing: 0.04em;
     color: var(--color-icons-color);
 }
+
 .checkbox-svg{
     width: 16px;
     height: 16px;
@@ -868,6 +869,7 @@ padding: 72px 24px 24px 24px;
     align-items: center;
     fill: transparent;
     justify-content: center;
+    margin-bottom: 24px;
 }
 .checkbox-svg:checked{
     background-color:var(--main-button-color);
@@ -915,7 +917,7 @@ padding: 72px 24px 24px 24px;
     gap: 24px;
 
 }
-.email{
+.email-footer{
     width: 264px;
     height: 40px;
     border: 1px solid #ffffff;
