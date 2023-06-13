@@ -877,7 +877,7 @@ padding: 72px 24px 24px 24px;
 
 
 
-.visually-hidden:checked{
+.visually-hidden:checked+ span{
     background-color:var(--main-button-color);
     border: none;
     fill: #ffffff;
