@@ -880,7 +880,7 @@ padding: 72px 24px 24px 24px;
 .visually-hidden:checked + .privacy-label> .checkbox-svg{
     background-color:var(--main-button-color);
     border: none;
-    fill:#ffffff;
+    fill:var(--main-logo-color);
 }
 
 .privacy-link{
