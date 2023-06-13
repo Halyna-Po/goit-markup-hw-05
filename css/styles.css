@@ -877,12 +877,10 @@ padding: 72px 24px 24px 24px;
 
 
 
-.visually-hidden:checked+ .checkbox-svg{
+.visually-hidden:checked + .privacy-label> .checkbox-svg{
     background-color:var(--main-button-color);
     border: none;
-    fill: #ffffff;
-
-
+    fill:#ffffff;
 }
 
 .privacy-link{
