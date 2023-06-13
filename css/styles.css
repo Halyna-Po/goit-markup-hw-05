@@ -877,10 +877,10 @@ padding: 72px 24px 24px 24px;
 
 
 
-.iconbox-svg:focus-within+ .icon-privacy{
+.visually-hidden:checked{
     background-color:var(--main-button-color);
     border: none;
-    fill:#F4F4FD;
+    fill: #ffffff;
 
 
 }
