@@ -785,6 +785,9 @@ padding: 72px 24px 24px 24px;
     }
         .name-user:focus-within+ .icon-input-name {
             fill:#4D5AE5;
+
+
+
         }
               .coment{
                 width: 100%;
@@ -801,8 +804,13 @@ padding: 72px 24px 24px 24px;
                 resize: none;
                 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-.coment:focus{
+.coment:focus {
     border-color: #4D5AE5;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
 }
 .modal-btn{
     position: absolute;
@@ -874,13 +882,16 @@ padding: 72px 24px 24px 24px;
     
 }
 /*делаем --рабочий квадратик*/
-
-
+.visually-hidden:focus-within+.privacy-label>.checkbox-svg{
+border-color: #4D5AE5;
+}
+ 
 
 .visually-hidden:checked + .privacy-label> .checkbox-svg{
     background-color:var(--main-button-color);
     border: none;
     fill:var(--main-logo-color);
+    
 }
 
 .privacy-link{
